@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/data/data/com.termux/files/home/android-sdk/platforms/android-34/data/res/values/attrs.xml" type="application/xml"?>
+
+<LinearLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextViev
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, World!" />
+    
+</LinearLayout>
