@@ -105,7 +105,7 @@ class AcodePlugin {
 
 		// Daftarkan formatter
 		acode.registerFormatter(plugin.name, this.name_language_type.split("|"), () => {
-			languageClient.format();
+			acodeLanguageClient.format();
 		});
 	}
 
